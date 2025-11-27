@@ -21,7 +21,10 @@ Doing this process manually with Photoshop or GIMP can be tedious and error-pron
 
 To be clear this page helps you with the image edition part, you still have to drag and drop the resulting images into the AI prompt and ask it to upscale them, then give those back to the extension, but that should take mere seconds, for best results I suggest to use as prompt "upscale this image, keep the exact same aspect ratio", here is a video showing the whole process:
 
-![](/uploads/bypass-image-ai-detection.mp4){: width="932" height="770"}
+<video controls>
+  <source src="/uploads/bypass-image-ai-detection.mp4" type="video/mp4">
+  Your browser does not seem to support the video tag.
+</video>
 
 And yes, the process has some rough edges but I will try to get them sorted out soon, I think addind a 2 pixel border that As a final note, I want to mention that ChatGPT itself (codex preview) helped me create this extension and I love the tiny bit of irony in that.
 

@@ -17,19 +17,13 @@ Back to the image obfuscation: First you need to invert the hue of the image (an
 
 ![](/uploads/hitler_hang.gif){: width="563" height="754"}
 
-Before you ask, yes, this historical image from the holocaust memorial museum is one of those images AI tools' automatic moral police do not allow to upscale.
+Doing this process manually with Photoshop or GIMP can be tedious and error-prone so I created a simple website to do this: [https://ivanca.github.io/bypass-gpt/](https://ivanca.github.io/bypass-gpt/)
 
-Doing this process manually with Photoshop or GIMP can be tedious and error-prone so I created a Chrome extension to do it (almost) automatically: [https://github.com/Ivanca/bypass-gpt](https://github.com/Ivanca/bypass-gpt)
+To be clear this page helps you with the image edition part, you still have to drag and drop the resulting images into the AI prompt and ask it to upscale them, then give those back to the extension, but that should take mere seconds, here is a gif showing the whole process:
 
-To be clear this extension helps you with the image edition part, you still have to drag and drop the resulting images into the AI prompt and ask it to upscale them, then give those back to the extension, but that should take mere seconds, here is a gif showing the whole process:
+![](/uploads/bypass-image-ai-detection.mp4){: width="932" height="770"}
 
-![](/uploads/bypass-extension-video.webp){: width="640" height="640"}
-
-I will try to make the extension readily available in the Chrome Web Store but that may take a while (...or Google may not allow me at all), in the meantime the previous link includes instructions about how to install it manually (I tested it in Chrome, I will check about Firefox in the upcoming days).
-
-And yes, the extension has some rough edges but I will try to get them  sorted out soon, also keep in mind it works better with photos instead of stuff with "empty borders" like the one I tried on the example.
-
-As a final note, I want to mention that ChatGPT itself (codex preview) helped me create this extension and I love the tiny bit of irony in that.
+And yes, the process has some rough edges but I will try to get them sorted out soon, I think addind a 2 pixel border that As a final note, I want to mention that ChatGPT itself (codex preview) helped me create this extension and I love the tiny bit of irony in that.
 
 As a even more final note, I want to mention that I'm looking for job  as a Front-end developer (or Full-stack), including freelance opportunities, so if you are interested in any of that you are more than welcome to drop me a line, my email it's the very same name of this blog at gmail dot com. 
 

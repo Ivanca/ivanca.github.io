@@ -19,7 +19,7 @@ Back to the image obfuscation: First you need to invert the hue of the image (an
 
 Doing this process manually with Photoshop or GIMP can be tedious and error-prone so I created a simple website to do this: [https://ivanca.github.io/bypass-gpt/](https://ivanca.github.io/bypass-gpt/)
 
-To be clear this page helps you with the image edition part, you still have to drag and drop the resulting images into the AI prompt and ask it to upscale them, then give those back to the extension, but that should take mere seconds, here is a gif showing the whole process:
+To be clear this page helps you with the image edition part, you still have to drag and drop the resulting images into the AI prompt and ask it to upscale them, then give those back to the extension, but that should take mere seconds, for best results I suggest to use as prompt "upscale this image, keep the exact same aspect ratio", here is a video showing the whole process:
 
 ![](/uploads/bypass-image-ai-detection.mp4){: width="932" height="770"}
 

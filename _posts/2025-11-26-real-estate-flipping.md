@@ -4,7 +4,7 @@ date: 2025-11-26 00:00:00
 categories:
   - Programming
 author_staff_member: ivan-castellanos
-image: "https://unsplash.it/600/450?image=448&a=.png"
+image: "/images/ai-bypass.jpg"
 large_header: false
 ---
 

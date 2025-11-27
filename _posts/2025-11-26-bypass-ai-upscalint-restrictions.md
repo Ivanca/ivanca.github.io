@@ -1,5 +1,5 @@
 ---
-title: How to Bypass AI's restrictions when upscaling images
+title: How to Deal With AI Restrictions When Upscaling Images
 date: 2025-11-26 00:00:00
 categories:
   - Programming

@@ -14,7 +14,7 @@ But first of all this is all for educational purposes and you are likely better 
 
 Back to the image obfuscation: First you need to invert the hue of the image (and I mean just the HUE, not the colors because that involves brightness), in image editing software like Photoshop that means change the hue 180 degrees, after that flip the image vertically, then warp the image but specifically you must use some kind of warp that can be reversed, and also a warp that doesn't make you lose any pixels (e.g. it doesn't push any pixels out the image, only "stretches" them a bit), in Photoshop the perfect warp for this is called wave with a 50% strength, see in action here:
 
-![](https://64.media.tumblr.com/35606d5bc5681a48000688f54f7e994e/b1fe4c11e3da5aee-07/s100x200/1933f30a9c76f382e9201ac369bca7b245bf17e9.gifv){: width="563" height="754"}
+![](/uploads/hitler_hang.gif){: width="563" height="754"}
 
 Before you ask, yes, this historical image from the holocaust memorial museum is one of those images AI tools' automatic moral police do not allow to upscale.
 
@@ -22,7 +22,7 @@ Doing this process manually with Photoshop or GIMP can be tedious and error-pron
 
 To be clear this extension helps you with the image edition part, you still have to drag and drop the resulting images into the AI prompt and ask it to upscale them, then give those back to the extension, but that should take mere seconds, here is a gif showing the whole process:
 
-![](https://64.media.tumblr.com/c762e75430ec97a49abb7aaf45c3b4a0/b1fe4c11e3da5aee-f7/s1280x1920/407d230a2d0aa9a263eac8df9cfe53b848e2ea8a.gifv){: width="720" height="720"}
+![](/uploads/bypass-extension-video.webp){: width="640" height="640"}
 
 I will try to make the extension readily available in the Chrome Web Store but that may take a while (...or Google may not allow me at all), in the meantime the previous link includes instructions about how to install it manually (I tested it in Chrome, I will check about Firefox in the upcoming days).
 

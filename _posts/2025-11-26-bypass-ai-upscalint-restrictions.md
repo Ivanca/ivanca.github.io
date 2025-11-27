@@ -57,7 +57,7 @@ Here’s a video of the entire workflow:
 
 I know the current version has a few rough edges, and I plan to refine the UI—mainly by adding multiple distortion options for cases where the default warp isn’t giving the expected results.
 
-ChatGPT’s own code-generation capabilities (the Codex preview) helped me build the extension used for this experiment—which adds a fun layer of irony to the whole thing.
+ChatGPT’s own code-generation capabilities (the Codex preview) helped me build the tool used for this experiment—which adds a fun layer of irony to the whole thing.
 
 I’m currently available for Front-End or Full-Stack development roles, including freelance opportunities.
 If you’re interested in working together, feel free to reach out—my email is ivanca at gmail.

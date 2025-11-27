@@ -1,15 +1,15 @@
-# Justice
+# Ivanca
 
 Law firm themed business template for Jekyll. Browse through a [live demo](https://grey-grouse.cloudvent.net/).
 Increase the web presence of a law firm or business with this configurable theme.
 
-![Justice template screenshot](images/_screenshot.png)
+![Ivanca template screenshot](images/_screenshot.png)
 
-Justice was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
+Ivanca was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
 
 Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/justice-jekyll-template)
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/Ivanca-jekyll-template)
 
 ## Features
 
@@ -34,7 +34,7 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 
 ## Develop
 
-Justice was built with [Jekyll](https://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+Ivanca was built with [Jekyll](https://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
 Install the dependencies with [Bundler](https://bundler.io/):
 
@@ -50,7 +50,7 @@ $ bundle exec jekyll serve
 
 ## Editing
 
-Justice is already optimised for adding, updating and removing pages, staff, posts, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
+Ivanca is already optimised for adding, updating and removing pages, staff, posts, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
 
 ### Posts
 

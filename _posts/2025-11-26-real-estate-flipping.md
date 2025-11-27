@@ -4,7 +4,8 @@ date: 2025-11-26 00:00:00
 categories:
   - Programming
 author_staff_member: ivan-castellanos
-image: "/images/ai-bypass.jpg"
+image: "/images/ai-bypass.png"
+background_image_path: "/images/ai-bypass.png"
 large_header: false
 ---
 

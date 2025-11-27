@@ -27,13 +27,8 @@ navigation_order: 1
 				</div>
 				<ul class="staff-info">
 					<li>{{ member.name }}</li>
-					<li><small>{{ member.credentials }}</small></li>
-					<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a>  ext {{ member.phone_extension }}</li>
+					<li>{{ member.content | markdownify }}</li>
 				</ul>
-			</div>
-
-			<div class="staff-bio">
-				<p>{{ member.content | markdownify }}</p>
 			</div>
 		</li>
 	{% endfor %}

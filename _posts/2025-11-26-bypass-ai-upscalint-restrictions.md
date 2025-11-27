@@ -26,7 +26,9 @@ To be clear this page helps you with the image edition part, you still have to d
   Your browser does not seem to support the video tag.
 </video>
 
-And yes, the process has some rough edges but I will try to get them sorted out soon, I think addind a 2 pixel border that As a final note, I want to mention that ChatGPT itself (codex preview) helped me create this extension and I love the tiny bit of irony in that.
+And yes, the process has some rough edges but I will try to get them sorted out soon, mostly I think I should add some controls for different distortions in case the default one is not giving the right results.
+
+As a final note, I want to mention that ChatGPT itself (codex preview) helped me create this extension and I love the tiny bit of irony in that.
 
 As a even more final note, I want to mention that I'm looking for job  as a Front-end developer (or Full-stack), including freelance opportunities, so if you are interested in any of that you are more than welcome to drop me a line, my email it's the very same name of this blog at gmail dot com. 
 

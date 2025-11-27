@@ -1,15 +1,11 @@
 - title: Pages
   links:
     - name: Home
-      link: /
+      link: /blog/
     - name: About
       link: /about/
-    - name: Services
-      link: /services/
     - name: Contact
       link: /contact/
-    - name: Blog
-      link: /blog/
 - title: Social
   links:
     - name: Facebook

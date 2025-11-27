@@ -1,7 +1,7 @@
 <li class="post-summary">
 	{% if include.post.image %}
-		<div class="post-summary-image">
-			<img src="{% include relative-src.html src=include.post.image %}" alt="Photo of {{ include.post.title }}">
+		<div class="post-summary-image" style="background-image: url('{% include relative-src.html src=include.post.image %}')">
+			
 		</div>
 	{% endif %}
 

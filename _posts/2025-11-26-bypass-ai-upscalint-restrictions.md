@@ -9,26 +9,53 @@ background_image_path: "/images/ai-bypass.png"
 large_header: false
 ---
 
-So the moral police loves to decide what images you can or cannot upscale when using tools like Google Gemini, ChatGPT and so on, I have found that you can (most of the times) bypass such kind of detection by obfuscating the image: By distorting it, upscaling it, then when you get the upscaled image you do the reverse operation on it. This works really well with Google's AI but not so much for ChatGPT, mostly for 3 reasons, 1st: it has stronger detection techniques, 2nd: Frequently crops the image in unwanted ways, 3rd: It frequently hallucinates objects and people that aren't in the original image (despite just asking it to upscale it). So I recommend you use Google's AI nano banana if you want to try this.
+Modern AI tools—Google Gemini, ChatGPT, and many others—often apply strict content-safety filters when you try to upscale certain images. These systems sometimes misclassify completely harmless images, blocking them from being processed. Through experimentation, I’ve noticed that you can sometimes avoid these false positives by lightly obfuscating the image before sending it to an AI model. After the upscale, you simply reverse the transformation to recover the original look.
 
-But first of all this is all for educational purposes and you are likely better of using other upscaling tools, and I encourage you to not break any legal agreements you may have with any AI company, and if you decide to do so you are responsible for any consequences for doing so.
+In my experience, this works quite well with Google’s AI, but not as reliably with ChatGPT. The main issues I’ve observed with ChatGPT are:
 
-Back to the image obfuscation: First you need to invert the hue of the image (and I mean just the HUE, not the colors because that involves brightness), in image editing software like Photoshop that means change the hue 180 degrees, after that flip the image vertically, then warp the image but specifically you must use some kind of warp that can be reversed, and also a warp that doesn't make you lose any pixels (e.g. it doesn't push any pixels out the image, only "stretches" them a bit), in Photoshop the perfect warp for this is called wave with a 50% strength, see in action here:
+It has stronger and more sensitive detection systems.
+
+It often crops images in unintended ways during the upscale process.
+
+It occasionally hallucinates new objects or people not present in the original photo, even when the prompt is a simple "upscale this image."
+
+Because of this, Google’s smaller “Nano” models tend to be more consistent for this specific experiment.
+
+Before going any further: this article is intended purely for educational and technical exploration. You should always respect the terms of service of any AI platform you use. If you decide to test any technique, you alone are responsible for understanding and complying with the rules of each tool.
+
+### The Image-Obfuscation Technique
+
+The idea is straightforward:
+Apply a reversible distortion before sending the image to the AI, then undo the distortion afterward. Through trial and error, the following sequence works well:
+
+Invert the hue of the image (only the hue channel—don’t change brightness or saturation), in Photoshop and other image edition Software this means shifting Hue by 180°.
+
+Flip the image vertically.
+
+Apply a reversible warp—one that doesn’t push pixels out of bounds or permanently distort details, in Photoshop the Wave warp at around 50% strength is great: it stretches pixels without losing any.
 
 ![](/uploads/hitler_hang.gif){: width="563" height="754"}
 
-Doing this process manually with Photoshop or GIMP can be tedious and error-prone so I created a simple website to do this: [https://ivanca.github.io/bypass-gpt/](https://ivanca.github.io/bypass-gpt/)
+Doing all of this manually in Photoshop or GIMP quickly becomes tedious. To make the experiment easier, I built a small tool:
 
-To be clear this page helps you with the image edition part, you still have to drag and drop the resulting images into the AI prompt and ask it to upscale them, then give those back to the extension, but that should take mere seconds, for best results I suggest to use as prompt "upscale this image, keep the exact same aspect ratio", here is a video showing the whole process:
+👉 [https://ivanca.github.io/bypass-gpt/](https://ivanca.github.io/bypass-gpt/)
+
+This page automates the reversible distortion step, you still need to upload the warped version to the AI for upscaling, then return the result to the tool to reverse it—but the whole loop only takes a few seconds.
+
+For best results, use a simple and strict prompt such as:
+
+> Upscale this image, keeping the exact same aspect ratio.
+
+Here’s a video of the entire workflow:
 
 <video controls>
   <source src="/uploads/bypass-image-ai-detection.mp4" type="video/mp4">
   Your browser does not seem to support the video tag.
 </video>
 
-And yes, the process has some rough edges but I will try to get them sorted out soon, mostly I think I should add some controls for different distortions in case the default one is not giving the right results.
+I know the current version has a few rough edges, and I plan to refine the UI—mainly by adding multiple distortion options for cases where the default warp isn’t giving the expected results.
 
-As a final note, I want to mention that ChatGPT itself (codex preview) helped me create this extension and I love the tiny bit of irony in that.
+ChatGPT’s own code-generation capabilities (the Codex preview) helped me build the extension used for this experiment—which adds a fun layer of irony to the whole thing.
 
-As a even more final note, I want to mention that I'm looking for job  as a Front-end developer (or Full-stack), including freelance opportunities, so if you are interested in any of that you are more than welcome to drop me a line, my email it's the very same name of this blog at gmail dot com. 
-
+I’m currently available for Front-End or Full-Stack development roles, including freelance opportunities.
+If you’re interested in working together, feel free to reach out—my email is the same as this blog’s domain at gmail dot com.

@@ -58,4 +58,4 @@ I know the current version has a few rough edges, and I plan to refine the UI—
 ChatGPT’s own code-generation capabilities (the Codex preview) helped me build the extension used for this experiment—which adds a fun layer of irony to the whole thing.
 
 I’m currently available for Front-End or Full-Stack development roles, including freelance opportunities.
-If you’re interested in working together, feel free to reach out—my email is the same as this blog’s domain at gmail dot com.
+If you’re interested in working together, feel free to reach out—my email is ivanca at gmail.

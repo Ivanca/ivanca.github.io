@@ -3,7 +3,7 @@
 		<img src="{% include relative-src.html src=include.member.image %}" alt="Staff photo for {{ include.member.name }}" width="120" height="120">
 	</div>
 	<ul class="staff-info">
-		<li>{{ include.member.name }}</li>
+		<li><strong>{{ include.member.name }}</strong></li>
 		<li><p>{{ include.member.content | markdownify }}</p></li>
 	</ul>
 </div>

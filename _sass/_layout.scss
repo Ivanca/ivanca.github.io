@@ -124,6 +124,7 @@ section {
 
 .quote-section {
 	@extend .dark-section;
+	display: none;
 	font-size: 3rem;
 	font-style: italic;
 	padding: 70px 20px;

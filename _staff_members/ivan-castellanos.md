@@ -1,5 +1,5 @@
 ---
-name: Ivanca
+name: Ivan Castellanos
 image: "/images/yo.png"
 ---
 

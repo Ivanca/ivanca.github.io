@@ -357,7 +357,8 @@ footer {
 }
 
 .post-summary-content.has-post-summary-image {
-	flex: 0 1 75%;
+	flex: 0 1 72.5%;
+	margin-left: 2.5%;
 }
 
 .post-summary-image {
@@ -377,9 +378,10 @@ footer {
 .post-summary-details {
 	color: #75828a;
 	font-size: 1.9rem;
+	margin: 0;
 }
 
 .post-summary-author {
 	@extend .testimonial-author;
-	margin: 1em 0;
+	margin: 0;
 }

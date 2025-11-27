@@ -36,9 +36,11 @@ Apply a reversible warp—one that doesn’t push pixels out of bounds or perman
 
 ![](/uploads/hitler_hang.gif){: width="563" height="754"}
 
+### Automating the Process
+
 Doing all of this manually in Photoshop or GIMP quickly becomes tedious. To make the experiment easier, I built a small tool:
 
-👉 [https://ivanca.github.io/bypass-gpt/](https://ivanca.github.io/bypass-gpt/)
+👉 [https://ivanca.github.io/bypass-image-ai-detection/](https://ivanca.github.io/bypass-image-ai-detection/)
 
 This page automates the reversible distortion step, you still need to upload the warped version to the AI for upscaling, then return the result to the tool to reverse it—but the whole loop only takes a few seconds.
 

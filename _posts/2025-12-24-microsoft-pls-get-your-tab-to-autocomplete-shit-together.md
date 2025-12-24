@@ -4,8 +4,8 @@ date: 2025-11-26 00:00:00
 categories:
   - Programming
 author_staff_member: ivan-castellanos
-image: "/images/ai-bypass.png"
-background_image_path: "/images/ai-bypass.png"
+image: "/images/racoon-satya.jpeg"
+background_image_path: "/images/racoon-satya.jpeg"
 large_header: false
 ---
 What do you think is gonna happen after I press tab when looking at this screenshot?

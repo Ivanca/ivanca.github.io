@@ -60,9 +60,14 @@ h1 {
 }
 
 h2, h3 {
-    font-size: 5.8rem;
-    line-height: 1.25em;
-    letter-spacing: 0;
+	font-size: 5rem;
+	overflow-wrap: break-word;
+
+	@media (min-width: $mobile-break) {
+		font-size: 5.8rem;
+		line-height: 1.25em;
+		letter-spacing: 0;
+	}
 }
 
 h3 {

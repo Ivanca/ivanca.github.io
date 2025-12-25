@@ -12,7 +12,7 @@ What do you think is gonna happen after I press tab when looking at this screens
 
 ![Before](/uploads/before_tab.png)
 
-That's right, its gonna do nothing and suggest something else that it wasn't any of the 2 initial suggestions
+That's right, its gonna do nothing and suggest something else that it wasn't any of the 2 initial suggestions!
 
 ![Before](/uploads/after_tab.png)
 

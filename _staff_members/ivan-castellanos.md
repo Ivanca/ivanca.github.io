@@ -3,6 +3,6 @@ name: Ivan Castellanos
 image: "/images/yo.png"
 ---
 
-Hi there! I'm a software developer with 15 years of experience. I'm looking for a remote job opportunity. I have both frontend and backend skills, with hands-on experience in React, Node.js, Python, TypeScript, PHP and C# (Unity).
+Hi there! I'm a seasoned software developer with 15 years of experience. I am currently looking for remote job opportunities where I can utilize my frontend and backend skills. My tech stack includes React, Node.js, Python, TypeScript, PHP, and C# (Unity).
 
-Feel free to reach out to me for collaborations or job offers at ivanca at gmail dot com.
+If you are interested in collaborating or hiring, please reach out to me at **ivanca at gmail dot com**.

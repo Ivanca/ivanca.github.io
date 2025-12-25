@@ -62,11 +62,11 @@ h1 {
 h2, h3 {
 	font-size: 5rem;
 	overflow-wrap: break-word;
-
+	letter-spacing: 0;
+	line-height: 6rem;
 	@media (min-width: $mobile-break) {
 		font-size: 5.8rem;
 		line-height: 1.25em;
-		letter-spacing: 0;
 	}
 }
 

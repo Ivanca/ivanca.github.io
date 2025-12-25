@@ -16,4 +16,4 @@ That's right, its gonna do nothing and suggest something else that it wasn't any
 
 ![Before](/uploads/after_tab.png)
 
-Whoever team or person is on charge of the behavior of vscode autocomplete behavior at Microsoft (or at least the C# Dev Kit plugin) please do your job and fix this, thank you.
+Whoever team or person is on charge of the vscode autocomplete behavior at Microsoft (or at least the C# Dev Kit plugin) please do your job and fix this, thank you.

@@ -3,4 +3,4 @@ name: Ivan Castellanos
 image: "/images/yo.png"
 ---
 
-Ivan was born at a very young age, this has made a lot of people very angry and has been widely regarded as a bad move.
+I'm brown, also I am alive but Scott Addams is not, that doesn't feel very superior race if you ask me.

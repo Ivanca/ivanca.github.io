@@ -12,6 +12,16 @@ p:has(img) {
 	max-width: 960px;
 	margin: 0 auto;
 }
+
+.container:has(.post-list) .page-header h2 {
+	display: none;
+}
+
+video {
+    margin: 0 auto;
+    display: block;
+}
+
 .box {
 	background-color: #fefefe;
 	box-shadow: 1px 1px 5px 0 rgba(100, 100, 100, 0.2);
@@ -111,6 +121,7 @@ section {
 .main {
 	@extend .light-section;
 	font-size: 2.25rem;
+	padding-top: 2.5%;
 }
 
 .light-section {

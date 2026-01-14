@@ -12,7 +12,7 @@ large_header: false
 Full video of my silly parody website so have a bit of context of what this is about:
 
 <video controls>
-  <source src="/uploads/bypass-image-ai-detection.mp4" type="video/mp4">
+  <source src="/uploads/censorship.mp4" type="video/mp4">
   Your browser does not seem to support the video tag.
 </video>
 

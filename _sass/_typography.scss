@@ -96,7 +96,7 @@ a {
 	color: #b14444;
 	transition: color 0.2s ease;
 	text-decoration: none;
-
+	word-break: break-all;
 	&:hover {
 		color: #b93838;
 	}

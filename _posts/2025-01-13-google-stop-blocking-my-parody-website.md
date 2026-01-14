@@ -1,6 +1,6 @@
 ---
 title: Google stop blocking my parody website
-date: 2025-11-26 00:00:00
+date: 2026-01-13 00:00:00
 categories:
   - Censorship
 author_staff_member: ivan-castellanos

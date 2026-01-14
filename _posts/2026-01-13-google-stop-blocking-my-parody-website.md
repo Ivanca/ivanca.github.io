@@ -9,7 +9,7 @@ background_image_path: "/images/censored-by-google.png"
 large_header: false
 ---
 
-Full video of my silly parody website so have a bit of context of what this is about:
+Full video of my silly parody website so you have a bit of context of what this is about:
 
 <video controls>
   <source src="/uploads/censorship.mp4" type="video/mp4">

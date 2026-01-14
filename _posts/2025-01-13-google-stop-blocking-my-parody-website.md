@@ -4,8 +4,8 @@ date: 2026-01-13 00:00:00
 categories:
   - Censorship
 author_staff_member: ivan-castellanos
-image: "/images/ai-bypass.png"
-background_image_path: "/images/ai-bypass.png"
+image: "/images/censored-by-google.png"
+background_image_path: "/images/censored-by-google.png"
 large_header: false
 ---
 

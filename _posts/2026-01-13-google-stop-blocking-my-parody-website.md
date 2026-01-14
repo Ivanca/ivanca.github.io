@@ -1,5 +1,5 @@
 ---
-title: Google stop blocking my parody website
+title: Google please stop blocking my parody website
 date: 2026-01-13 00:00:00
 categories:
   - Censorship

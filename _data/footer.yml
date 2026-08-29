@@ -6,9 +6,4 @@
       link: /about/
     - name: Contact
       link: /contact/
-- title: Social
-  links:
-    - name: Twitter
-      link: http://twitter.com/notsoaaa
-      social_icon: Twitter
-      new_window: true
+

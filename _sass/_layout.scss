@@ -87,11 +87,10 @@ header a.active {
 }
 
 h1 a {
-    color: transparent;
-    background: linear-gradient(#d3d6dd 10%, #c4c5cb 67%, #e3e4eb 92%);
-    background-clip: text;
-    /* text-shadow: 0 0 3px #00000000; */
-    transition: background-color 0.2s ease, text-shadow 0.2s ease;
+    color: #2d2d31;
+    /* background: linear-gradient(#d3d6dd 10%, #c4c5cb 67%, #e3e4eb 92%); */
+    /* background-clip: text; */
+    /* transition: background-color 0.2s ease, text-shadow 0.2s ease; */
     font-size: 1.3em;
     letter-spacing: -0.3rem;
     -webkit-text-stroke: 1px #3b3c4145;

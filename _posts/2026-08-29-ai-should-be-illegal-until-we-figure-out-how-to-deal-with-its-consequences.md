@@ -9,8 +9,6 @@ background_image_path: "/images/when-is-enough.png"
 large_header: false
 ---
 
-# AI should be illegal until we figure out a way to manage its social consequences
-
 Artificial intelligence should be illegal until we figure out how to manage its social consequences. This may sound extreme, but the speed at which AI is advancing is fundamentally incompatible with the speed at which societies can adapt to it.
 
 The most immediate problem is job uncertainty. People are being asked to invest years of their lives learning skills for careers that may not exist in the same form by the time they graduate. This creates not only employment uncertainty, but career uncertainty: how can someone responsibly choose a profession when its long-term existence is increasingly impossible to predict? It is naïve to believe that simply understanding how AI works internally, programming AI systems, or following the latest model releases will keep someone's job safe. If AI's defining advantage is its ability to learn and improve faster than humans, then any new job created around today's limitations can eventually become a target for automation too.
